@@ -41,6 +41,8 @@
   $query = "INSERT INTO users (username, firstname, lastname, password, gender)
   VALUES ('$user', '$first' , '$last', '$pwd' , '$gender')";
   $result = mysqli_query($mysql, $query);
+  session_start();
+  $_SESSION["user"] = $user;
   header("Location: index.php");
 }
   }
