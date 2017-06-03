@@ -6,6 +6,8 @@
   <title>Sign Up</title>
 </head>
 <body>
+  <center>
+    <h1> Sign Up!</h1>
 <form action="signup.php" method="post">
   <input type="text" name="user" placeholder="Username"><br>
   <input type="text" name="first" placeholder="First Name"><br>
@@ -47,4 +49,5 @@
 }
   }
    ?>
+ </center>
 </body>

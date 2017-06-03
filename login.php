@@ -6,10 +6,12 @@
   <title>Login</title>
 </head>
 <body>
+  <center>
+    <h1> Please Login:</h1>
 <form action="login.php" method="post">
   <input type="text" name="user" placeholder="Username"><br>
   <input type="password" name="pwd" placeholder="Password"><br>
-  <button type="submit">Login!</button><br>
+  <button type="submit">Login!</button><br></form>
   <?php
   include 'dbh.php';
   if(isset($_POST['user']))
@@ -37,4 +39,5 @@
 }
   }
    ?>
+ </center>
 </body>
