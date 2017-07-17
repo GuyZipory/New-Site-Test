@@ -12,6 +12,7 @@ $user = $_SESSION["user"];
 <html>
 <title>New PHP Test Site</title>
   <body>
+    <p>sadasd</p>
     <?php
       $query = "SELECT * FROM users WHERE username='$user'";
       $result = mysqli_query($mysql, $query);
